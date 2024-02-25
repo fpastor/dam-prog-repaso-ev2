@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="repasoProgEV2.Classroom">
+    <Position X="0.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAQgAAAAAAAAAQAAAAAAUAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Classroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="repasoProgEV2.Student">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAABEBAAACAAEAAAAQAACAAAAAAgAAAQAAAFBA=</HashCode>
+      <FileName>Classroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="repasoProgEV2.ReportCard">
+    <Position X="6.25" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="repasoProgEV2.ReportCard.SubjectGrade">
+        <TypeIdentifier>
+          <NewMemberFileName>Classroom.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>wAACAAAAAAAAAIAAAAAgAAAAAAAAAAAAAAAAAAEBABE=</HashCode>
+      <FileName>Classroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="repasoProgEV2.Stadistics">
+    <Position X="9" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAACAIAAAgEAAAABAAAAAA=</HashCode>
+      <FileName>Classroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="repasoProgEV2.GenderType">
+    <Position X="10.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Classroom.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="repasoProgEV2.SubjectType">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABIAAAAAAAAAAIAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Classroom.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
