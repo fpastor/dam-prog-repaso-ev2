@@ -7,7 +7,7 @@ namespace repasoProgEV2
     {
         private static int Calc(int value1, int value2, Calculator calculator)
         {
-            return calculator(value1, value2);
+            return calculator(value1, value2); 
         }
 
         public static void Repaso()
@@ -19,7 +19,7 @@ namespace repasoProgEV2
             Console.Write("Dame el segundo valor...: ");
             int value2 = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Elige una opción [1] SUMAR [2] RESTAR [3] MULTIPLICAR [4] DIVIDIR : ");
+            Console.Write("Elige una opción [1] SUMA [2] RESTAR [3] MUL [4] DIV [5] MOD : ");
             int operation = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
             switch (operation)
@@ -39,6 +39,10 @@ namespace repasoProgEV2
                 case 4:
                     int resultD = Calc(value1, value2, (value1, value2) => value1 / value2);
                     Console.Write("La división de {0} y {1} es: {2}", value1, value2, resultD);
+                    break;
+                case 5:
+                    int resultE = Calc(value1, value2, (value1, value2) => value1 % value2);
+                    Console.Write("El resto de la división de {0} y {1} es: {2}", value1, value2, resultE);
                     break;
             }
             Console.WriteLine();
