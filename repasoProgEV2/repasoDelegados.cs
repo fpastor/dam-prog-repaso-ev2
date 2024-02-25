@@ -7,7 +7,7 @@ namespace repasoProgEV2
     {
         private static int Calc(int value1, int value2, Calculator calculator)
         {
-            return calculator(value1, value2); 
+            return calculator(value1, value2);
         }
 
         public static void Repaso()
