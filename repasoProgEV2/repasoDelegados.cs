@@ -5,7 +5,7 @@ namespace repasoProgEV2
 
     public class repasoDelegados
     {
-        private static int Calc(int value1, int value2, Calculator calculator)
+        public static int Calc(int value1, int value2, Calculator calculator)
         {
             return calculator(value1, value2);
         }
