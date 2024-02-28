@@ -3,12 +3,45 @@ namespace repasoProgEV2
 {
     public class repasoGenericos
     {
-        class Generico<T>
+        public class Node<T>
         {
-            public double Id;
-            public string Name = string.Empty;
-            public List<T> Data = new();
-        }
+            private double _id;
+            private string _name = string.Empty;
+            private List<T>? _children;
+            private Node<T>? _parent;
 
+            public double Id
+            {
+                get
+                {
+                    return _id;
+                }
+            }
+
+            public string Name
+            {
+                get
+                {
+                    return _name;
+                }
+            }
+
+            public Node<T>? Parent
+            {
+                get
+                {
+                    return _parent;
+                }
+                set
+                {
+                    _parent = value;
+                }
+            }
+
+
+
+
+
+        }
     }
 }
